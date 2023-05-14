@@ -1,0 +1,34 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  gap: 0.8rem;
+  backdrop-filter: blur(5px);
+}
+.nav_link {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.logo {
+  font-size: large;
+}
+
+.logo > a {
+  color: white;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-light);
+  font-size: 0.9rem;
+}

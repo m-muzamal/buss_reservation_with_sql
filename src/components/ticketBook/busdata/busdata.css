@@ -1,0 +1,28 @@
+.busdata {
+    width: 100%;
+    background-color: var(--color-bg-variant);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+h2{
+    margin-bottom: 10px;
+}  
+  .buslist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    
+  }
+  
+  .btn_seat {
+    margin-bottom: 10px;
+  }
+  

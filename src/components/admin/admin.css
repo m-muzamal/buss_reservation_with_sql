@@ -1,0 +1,36 @@
+.admin {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .admin::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/admin.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  .admin_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .admin_table{
+    width: auto;
+    background-color: var(--color-bg-variant);
+  }
+  .table_heads{
+    color: var(--color-primary);
+  }

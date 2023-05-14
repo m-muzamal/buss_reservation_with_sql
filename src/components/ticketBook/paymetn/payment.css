@@ -1,0 +1,167 @@
+.paymentContainer {
+  position: relative;
+}
+.paymentContainer::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../assets/payment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.3;
+  z-index: -1;
+}
+.payment_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+  padding-top: 5rem;
+  height: 100vh;
+}
+.payment_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.easy_item {
+  width: 2.5in;
+  height: 0.8in;
+  overflow: hidden;
+  margin: 1rem 2rem;
+  /* border: 1px solid #ccc; */
+}
+.image {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  cursor: pointer;
+}
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 400px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: var(--color-bg-variant);
+  border-radius: 1rem;
+  border: 2px solid var(--color-primary);
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+p > span {
+  color: var(--color-primary);
+  font-size: large;
+}
+
+hr {
+  border-top: 1px solid var(--color-primary-variant);
+  margin: 1rem 0;
+}
+
+.payment-method {
+  background-color: var(--color-bg-variant);
+  border: 1px solid var(--color-primary-variant);
+  border-radius: 5px;
+  padding: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.payment-method h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.credit-card {
+  background-color: transparent;
+  border: 1px solid var(--color-primary-variant);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.credit-card .card-number {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.credit-card .card-expiry,
+.credit-card .card-cvv {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid var(--color-primary-variant);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.credit-card .card-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.paylabel {
+  margin: 0;
+  padding: 0;
+}
+.payradio {
+  margin: 0;
+  padding: 0;
+}
+
+.easypaisa-payment {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: var(--color-bg-variant);
+  border-radius: 1rem;
+  border: 2px solid var(--color-primary);
+}
+.phone-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-item{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.phone-input{
+  width: 3rem;
+}
+
+.qr-code {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.try-image {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
