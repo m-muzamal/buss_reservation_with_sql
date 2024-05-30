@@ -34,7 +34,7 @@ const Payment = () => {
   };
 
   const handleConfirm = async (event) => {
-    const message = `\nYou have booked seats in Imran Express\n${getBookingDetails()}`;
+    const message = `\nYou have booked seats in UAF Express\n${getBookingDetails()}`;
     event.preventDefault();
     const bookingData = {
       bookingname: sessionData.username,
@@ -47,10 +47,6 @@ const Payment = () => {
     };
     axios
       .post("http://localhost:3001/api/booking", bookingData)
-      .then((response) => {
-        console.log(response.data);
-        alert("You have booked your ticket successfully!");
-      })
       .then((response) => {
         console.log(response.data);
         alert("You have booked your ticket successfully!");

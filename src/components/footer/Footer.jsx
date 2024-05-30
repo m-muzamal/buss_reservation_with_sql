@@ -7,7 +7,7 @@ import {ImTwitter} from 'react-icons/im'
 const Footer = () => {
   return (
     <footer>
-      <a href="/home" className="footer__logo">IMRAN EXPRESS</a>
+      <a href="/home" className="footer__logo">UAF EXPRESS</a>
       <ul className="permalinks">
         <li><a href="/home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -17,8 +17,8 @@ const Footer = () => {
 
       <div className="footer__queries">
         <h2>For Queries</h2>
-        <p>+92 331 8690265</p>
-        <p>yousafimran491@gmail.com</p>
+        <p>+92 3154237255</p>
+        <p>muzamal503@gmail.com</p>
       </div>
       
       <div className="footer__socials">

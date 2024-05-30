@@ -40,10 +40,10 @@ const About = () => {
           </div>
 
           <p className="text">
-            <strong>Imran Express</strong> is one of the oldest and largest
+            <strong>UAF Express</strong> is one of the oldest and largest
             transport companies of Pakistan. Transport business was initiated by{" "}
             <strong>Chaudhry Muzammal Dogar</strong>, grandfather of current
-            C.E.O and Chairman. Imran Express Group is diversified into Public
+            C.E.O and Chairman. UAF Express Group is diversified into Public
             Transport, Logistic and Cargo.
           </p>
         </div>

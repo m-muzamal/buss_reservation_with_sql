@@ -17,19 +17,19 @@ const Ticketbook = () => {
     setSelectedBus(bus);
     sessionStorage.setItem("selectedBus", JSON.stringify(bus));
   };
-  
+
   const handleDateChange = (event) => {
     const selectedDate = event.target.value;
     setDate(selectedDate);
     localStorage.setItem("selectedDate", selectedDate);
   };
-
+  ("");
   return (
     <div id="/ticketbook" className="ticket">
       <section className="container">
         <div className="ticket__container">
           <div className="logo">
-            <h1>IMRAN EXPRESS</h1>
+            <h1>UAF EXPRESS</h1>
           </div>
           <p className="ticketText">Find a bus and book your seats.</p>
           <form className="ticketbox" onSubmit={handleFormSubmit}>

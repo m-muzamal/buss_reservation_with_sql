@@ -16,16 +16,17 @@ const Nav = () => {
   const handleLogout = () => {
     localStorage.removeItem("session");
     setSessionData({});
+    alert("Are you shure you want to logout?")
     navigate("/");
   };
 
   return (
     <nav>
       <div className="logo">
-        <a href="/home">IMRAN EXPRESS</a>
+        <a href="/home">UAF EXPRESS</a>
       </div>
       <div className="nav_link">
-        <a href="/home" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}>Home</a>
+        <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}>Home</a>
         <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}>About</a>
         <a href="#services" onClick={() => setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}>Services</a>
         <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}>Contact</a>
